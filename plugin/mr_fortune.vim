@@ -9,7 +9,7 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 " 関数コール
-nmap ftn :call mr_fortune#teller()<CR>
+nmap ftn :<C-u>call mr_fortune#teller()<CR>
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
